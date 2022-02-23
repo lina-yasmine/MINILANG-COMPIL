@@ -324,5 +324,5 @@ READ        {
             } 
 [ \t]    nb_col += strlen(yytext); 
 {saut}   nb_ligne=nb_ligne+1; nb_col =1;
-. { printf("Erreur lexicale au niveau de la ligne Num %d colonne %d \n", nb_ligne,nb_col); } 
+. { printf("Erreur lexicale au niveau de la ligne Numero %d colonne %d \n", nb_ligne,nb_col); } 
 %%
