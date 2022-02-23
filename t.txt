@@ -1,0 +1,79 @@
+IDENTIFICATION DIVISION.
+PROGRAM-ID. A.
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+# Mon premier Commentaire !
+# Ceci un ! deuxième !
+# commentaire a plusieurs lignes grrrrr grgrgrg jfhskhfjsjfknf hhgkjdsnkbdk jhfjiljqijfzjijq hnhkjhfjhkjhfkjh jeuruhhhgbhfjnnvjjfhfyf hfhfhfjjfjfnghhvbbhvhhhf 
+hhfjjjsdnjdjkfjjf jdjdjfncn hyhjhjjjj hhhhdhhdb 
+
+hhshshhsj jcjjdjjdjdjdj Commentaire !
+
+CONST K FLOAT.
+C FLOAT.
+CONST B INTEGER.
+A | Z INTEGER.
+CONST Eren STRING.
+Armin | Mikassa STRING.
+CONST Lamia INTEGER.
+CONST Lamia FLOAT.
+# on aura ici une erreur sémantique de double declaration de variable !
+
+
+PROCEDURE DIVISION.
+K=C.
+# on aura ici une erreur sémantique de variable non déclarer !
+
+Ch = 'a'.
+Eren ="good morning".
+Armin = "Hello".
+MOVE K TO 30
+
+  7+3*9-(-2)+20/4
+  7+3*9-2+20
+  # vous pouvez remplacer ici la division sur 4 par un 0 et vous aurez une erreure semantique division sur 0 
+  on ne l'a pas incluse ici car contrairement aux autres erreurs semantique on a fait un return dans celle ci
+  donc il va sortir du programme avant de le finir !
+
+
+  MOVE C TO B
+   ACCEPT (“$”:@ A).
+   DISPLAY ("STRING": A ).
+   K + 30 + 2 * 5 - 1 + 6+ (-8)
+   (7+(-9)/3 .GE. 5)
+   (Z .GE. A) .AND. (B .GE. C)
+  END
+END
+
+IF (1+(-9)/3 .GE. 5): DISPLAY ("la valeur de A est $": A).
+   A=C.
+   B+ 128 + (-30)+A /6
+   IF (5 + A .GE. B): DISPLAY ("la valeur de B est $": B ).
+   END
+   MOVE A TO 20
+   (Z .GE. A) .AND. (B .GE. C)
+   C+2
+   END
+END
+
+IF (5 + A .GE. B):
+    DISPLAY ("la valeur de B est $": B ).
+ ELSE:
+    ACCEPT (“$”:@ A).
+    MOVE  (-2) TO  100
+      IF (1+(-9)/45 .GE. 5):
+        DISPLAY ("la valeur de B est $": B ).
+         A+ 15/2
+	     B+ 15 +(-19)+C/20
+		IF (5 + A .GE. B):
+         DISPLAY ("la valeur de B est $": B ).
+        END
+		MOVE A TO B
+		   C+ 15*2
+	    END
+	END
+ END
+END
+
+STOP RUN. 
+ 
